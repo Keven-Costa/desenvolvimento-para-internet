@@ -1,0 +1,18 @@
+#content {
+    border:2px solid #e0a260;
+    width: 40%;
+    height: 600px;
+}
+.elements{
+    background-color: rgb(228, 228, 179);
+    width: 40%;
+    padding: 16px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 2px solid #ffa94d;
+
+}
+p, h1{
+    color: #d9480f;
+    
+}
