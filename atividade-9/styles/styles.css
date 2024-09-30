@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: #000000;
+    padding: 10px;
+}
+  
+.grid-item {
+    background-color: rgba(81, 69, 245, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    transition: transform 0.3s ease; /* Transição suave padrão para todos os itens */
+}
+
+.grid-item:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do elemento em 10% ao passar o mouse */
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+  
+.item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+  
+.item5 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
