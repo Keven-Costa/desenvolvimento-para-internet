@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Define a altura do body como 100% da altura da janela */
+    margin: 0;
+    /* Remove margens padrão */
+}
+
+.container {
+    display: flex;
+    width: 1100px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+
+    /* Tamanho padrão dos boxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.condicao {
+    background-color: #2c3e9e;
+    text-align: left;
+}
+
+.voxy {
+    background-color: #ee4e49;
+    text-align: left;
+}
+
+.convenio {
+    background-color: #48a9dc;
+    text-align: left;
+}
+
+.familia {
+    background-color: #2a1e76;
+    text-align: left;
+}
+
+
+
+.transferencia {
+    background-color: #b5804d;
+
+
+}
+
+.volte {
+    background-color: #6096aa;
+    width: 355px;
+    
+}
+
+h2 {
+    font-size: 1.60rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.00rem;
+}
+
+.box-maior {
+   
+    width: 1100px;
+    height: 250px;
+    display: flex;
+
+    justify-content: space-between;
+    
+}
+
+.box-maior div {
+    width: 520px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    padding: 70px 15px;
+
+}
