@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.article {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Combinador de descendente: estiliza todos os parágrafos dentro de seções */
+.section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Combinador de filho direto: estiliza imagens que são filhos imediatos de uma <div> */
+.intro>img,
+.section>img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Combinador de irmãos adjacentes: remove a margem superior do parágrafo após um <h2> */
+.section h2+p {
+    margin-top: 0;
+}
+
+/* Combinador de irmãos gerais: estiliza todos os parágrafos que seguem uma imagem */
+img+p {
+    color: #555;
+    font-style: italic;
+}
+
+#java-img {
+    height: 300px;
+    width: 300px;
+}
