@@ -8,7 +8,7 @@ Este repositório contém os códigos das atividades desenvolvidas durante a dis
 ### Atividade 2 - Página de Apresentação Pessoal
 Uma página web minimalista com informações acadêmicas e profissionais, desenvolvida em HTML e CSS.
 
-Link da visualisação da aplicação: http://127.0.0.1:5500/atividade-1/pages/
+Link da visualisação da aplicação: https://keven-costa.github.io/desenvolvimento-para-internet/atividade-02/
 
 ### Atividade 3 - Página Interativa com Efeitos de Cor
 Uma página simples com HTML, CSS e JavaScript que demonstra interatividade básica, permitindo alterar a cor dos parágrafos aleatoriamente.
